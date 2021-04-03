@@ -79,7 +79,7 @@ body{
  .aside_1{
     display: flex;
     flex-direction:column-reverse;
-    background-image: url("images/haty_skoll5.jpg");
+    background-color: lawngreen;
  }
  .Informacion{
     display: flex;
@@ -93,7 +93,7 @@ body{
     flex-direction: column;
     color: white;
     align-items: initial ;
-    background-image: url("images/haty_skoll4.jpg");
+    background-color: lawngreen;
     border-radius: 10px;
  }
  .Other a{
@@ -113,10 +113,10 @@ body{
         flex-direction: column;
     }
     .nav{
-        background-image: url("images/haty_skoll2.jpg");
+        background-color: lawngreen;
     }
     .Other{
-        background-image: url("images/haty_skoll8.jpg");
+        background-color: lawngreen;
     }
     a:hover{
         width: 100%;
