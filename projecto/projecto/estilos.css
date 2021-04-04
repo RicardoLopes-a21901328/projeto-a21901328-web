@@ -25,7 +25,9 @@ body{
     border-style: solid;
     border-color: darkslategray;
     align-items: initial;
-    background-image: url("images/haty_skoll9.jpg");
+    background: url("images/haty_skoll9.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 .nav1{
@@ -34,7 +36,9 @@ body{
     border-style: solid;
     border-color: darkslategray;
     align-items: initial;
-    background-color: lightcoral;
+    background: url("images/haty_skoll4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 .header section{
@@ -126,8 +130,10 @@ body{
     color: white;
     border-style: solid;
     align-items: initial ;
-    background-image: url("images/haty_skoll10.jpg");
+    background: url("images/haty_skoll10.jpg");
     border-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
  }
  .Other a{
     display: flex;
@@ -146,8 +152,10 @@ body{
     color: white;
     border-style: solid;
     align-items: initial ;
-    background-color: steelblue;
+    background-image: url("images/haty_skoll12.jpg");
     border-radius: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
  }
  .Other1 a{
     display: flex;
@@ -187,7 +195,7 @@ body{
         flex-direction: column;
     }
     .nav{
-        background-image: url("images/haty_skoll6_0.jpg");
+        background-image: url("images/haty_skoll4.jpg");
 
     }
     .Other{
