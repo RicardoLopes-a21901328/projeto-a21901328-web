@@ -246,6 +246,10 @@ body{
         margin-left: 0px;
         margin-right: 0px;  
     }
+    iframe{
+        height: 300px;
+        width: 300px;
+    }
     .textos{
         max-width: 100%;
         min-width: 100%;
