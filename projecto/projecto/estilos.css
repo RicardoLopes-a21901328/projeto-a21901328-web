@@ -9,6 +9,9 @@ body{
     background-attachment: fixed;
   
 }
+.footer{
+    color: white;
+}
 .header{
     background-color: darkolivegreen;
     border-style: solid;
@@ -196,9 +199,9 @@ body{
     .nav{
         background-image: url("images/haty_skoll4.jpg");
         background-size: 100% 100%;
-        max-width: auto;
-        min-width: auto;
-        flex-direction: column;
+        max-width: 100%;
+        min-width: 100%;
+        flex-direction: row;
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
@@ -208,8 +211,8 @@ body{
     .Other{
         background-image: url("images/haty_skoll12.jpg");
         background-size: 100% 100%;
-        max-width: auto;
-        min-width: auto;
+        max-width: 100%;
+        min-width: 100%;
         flex-direction: row;
         min-height: auto;
         max-height: auto;
@@ -218,25 +221,16 @@ body{
 
     }
     .header{
-        max-width: auto;
-        min-width: auto;
+        max-width: 100%;
+        min-width: 100%;
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
-        margin-right: 0px;
-        display: flex;
-        align-items: center;
-        opacity: 0.8;
-        min-width: 795px;
-        max-width: 795px;
-        flex-direction: column;
-        color:black;
-        padding: auto;
-        line-height: auto;  
+        margin-right: 0px;  
     }
     .textos{
-        max-width: auto;
-        min-width: auto;
+        max-width: 100%;
+        min-width: 100%;
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
