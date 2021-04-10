@@ -95,6 +95,9 @@ body{
     padding: 6px;
     background-color: transparent;
 }
+.ima_1{
+    align-self: center;
+}
 .textos{
     display: flex;
     background-color: #535250;
@@ -248,7 +251,11 @@ body{
     }
     iframe{
         height: 300px;
-        width: 300px;
+        width: 400px;
+    }
+    .ima{
+        size: 60%;
+        
     }
     .textos{
         max-width: 100%;
@@ -259,8 +266,8 @@ body{
         margin-left: 0px;
         margin-right: 0px;
     }
-    a:hover{
-        font-size: 25px;
+    .ima_1{
+        align-self: center;
     }
 }
 @keyframes mymove {
