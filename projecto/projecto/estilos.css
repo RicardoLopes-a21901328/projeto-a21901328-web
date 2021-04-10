@@ -207,8 +207,8 @@ body{
 
 @media screen and (min-width: 1350px){
     .textos{
-        max-width: 83%;
-        min-width: 83%;    
+        max-width: 75%;
+        min-width: 75%;    
     }
     
 }
