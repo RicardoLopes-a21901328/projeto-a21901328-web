@@ -196,8 +196,8 @@ body{
     .nav{
         background-image: url("images/haty_skoll4.jpg");
         background-size: 100% 100%;
-        max-width: none;
-        min-width: none;
+        max-width: auto;
+        min-width: auto;
         flex-direction: column;
         min-height: auto;
         max-height: auto;
@@ -208,8 +208,8 @@ body{
     .Other{
         background-image: url("images/haty_skoll12.jpg");
         background-size: 100% 100%;
-        max-width: none;
-        min-width: none;
+        max-width: auto;
+        min-width: auto;
         flex-direction: row;
         min-height: auto;
         max-height: auto;
@@ -223,7 +223,16 @@ body{
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
-        margin-right: 0px;  
+        margin-right: 0px;
+        display: flex;
+        align-items: center;
+        opacity: 0.8;
+        min-width: 795px;
+        max-width: 795px;
+        flex-direction: column;
+        color:black;
+        padding: auto;
+        line-height: auto;  
     }
     .textos{
         max-width: auto;
