@@ -104,8 +104,8 @@ body{
     text-align: center;
     align-items: center;
     opacity: 0.95;
-    min-width: 795px;
-    max-width: 795px;
+    min-width: 63.5%;
+    max-width: 63.5%;
     flex-direction: column;
     color:white;
     padding: 6px;
