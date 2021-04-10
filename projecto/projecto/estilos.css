@@ -5,6 +5,7 @@ body{
     width: auto;
     background-image: url("images/serpent2E.jpg");
     background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-attachment: fixed;
   
 }
@@ -187,7 +188,7 @@ body{
 }
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1100px){
     section{
         display: flex;
         flex-direction: column;
@@ -197,6 +198,7 @@ body{
         background-size: 100% 100%;
         max-width: none;
         min-width: none;
+        flex-direction: column;
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
@@ -208,6 +210,7 @@ body{
         background-size: 100% 100%;
         max-width: none;
         min-width: none;
+        flex-direction: row;
         min-height: auto;
         max-height: auto;
         margin-left: 0px;
