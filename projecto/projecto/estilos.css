@@ -9,22 +9,34 @@ body{
     background-attachment: fixed;
   
 }
+.ima img{
+    width: 40%;
+}
 .footer{
+    color: white;
+    text-align: center;
+    background-image: url("images/separador-remove-preview.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    font-size: 20px;
+    min-height: 250px;
+    background-size: 100% 100%;
+    
+}
+
+.footer a{
     color: white;
 }
 .header{
-    background-color: darkolivegreen;
-    border-style: solid;
-    margin-left: 100px;
-    margin-right: 100px;
-    max-width: 1095px;
-    min-width: 1095px;
-    border-color: darkslategray;
-    min-height: 100px;
+    color: #535250;
+    background-image: url("images/separador-remove-preview.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
     position: relative;
+    min-height: 250px;
+    background-size: 100% 100%;
   }
 .nav{
     display: flex;
@@ -45,12 +57,12 @@ body{
     color: white;
     border-radius: 20px;
     border-style: solid;
-    border-color: darkslategray;
+    background-color: #535250;
     align-items: initial;
     margin-left: 100px;
     margin-right: 100px;
     max-width: 3000px;
-    background: url("images/haty_skoll4.jpg");
+    background: url("images/separador3-r.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -62,7 +74,7 @@ body{
     color: white;
 }
 .nav a:hover{
-    background-color: transparent;
+    background-color: #535250;
     color: darkred;
 }
 .nav a{
@@ -85,19 +97,19 @@ body{
 }
 .textos{
     display: flex;
-    background-color: lightslategray;
-    justify-content: center;
+    background-color: #535250;
+    text-align: center;
     align-items: center;
-    opacity: 0.8;
+    opacity: 0.95;
     min-width: 795px;
     max-width: 795px;
     flex-direction: column;
-    color:black;
+    color:white;
     padding: 6px;
     line-height: 20px;
 }
 .nav a:hover .droopdown:hover .dropbtn {
-    background-color: transparent;
+    background-color: #535250;
   }
 .nav1 a:hover .droopdown:hover .dropbtn {
     background-color: transparent;
@@ -106,7 +118,7 @@ body{
   .Statistic-content {
     display: none;
     position: absolute;
-    background-color: transparent;
+    background-color: #535250;
     min-width: 100px;
     box-shadow: black;
     z-index: 1;
@@ -121,7 +133,7 @@ body{
   }
   
   .Statistic-content a:hover {
-    background-color: transparent;
+    background-color: #535250;
   }
 
   .droopdown:hover .Statistic-content {
@@ -161,7 +173,7 @@ body{
     background-color: transparent;
  }
  .Other a:hover{
-    background-color: transparent;
+    background-color: #535250;
     color:  darkred;
 }
 .Other1{
@@ -186,7 +198,7 @@ body{
     background-color: transparent;
  }
  .Other1 a:hover{
-    background-color: transparent;
+    background-color: #535250;
     color:  darkred;
 }
 
@@ -196,14 +208,19 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .footer{
+        background-image: url("images/separador3-r.png");
+        min-height: 69px;
+        max-height: 69px;
+    }
     .nav{
         background-image: url("images/haty_skoll4.jpg");
         background-size: 100% 100%;
         max-width: 100%;
         min-width: 100%;
-        flex-direction: row;
         min-height: auto;
         max-height: auto;
+        flex-direction: row;
         margin-left: 0px;
         margin-right: 0px;
 
@@ -213,25 +230,26 @@ body{
         background-size: 100% 100%;
         max-width: 100%;
         min-width: 100%;
+        min-height: 200px;
+        max-width: 200px;
         flex-direction: row;
-        min-height: auto;
-        max-height: auto;
         margin-left: 0px;
         margin-right: 0px;  
 
     }
     .header{
+        background-image: url("images/separador3-r.png");
         max-width: 100%;
         min-width: 100%;
-        min-height: auto;
-        max-height: auto;
+        min-height: 69px;
+        max-height: 69px;
         margin-left: 0px;
         margin-right: 0px;  
     }
     .textos{
         max-width: 100%;
         min-width: 100%;
-        min-height: auto;
+        min-height: 150px;
         max-height: auto;
         margin-left: 0px;
         margin-right: 0px;
@@ -247,7 +265,11 @@ body{
     25%  {left: 200px;}
     75%  {left: 50px}
     100% {left: 100px;}
-  }
+}
+.filled{
+    border-style: groove;
+    background-color: #535250;
+}
 
 
   
