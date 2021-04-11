@@ -205,10 +205,20 @@ body{
     color:  darkred;
 }
 
-@media screen and (min-width: 1350px){
+@media screen and (min-width: 1400px){
     .textos{
-        max-width: 73%;
-        min-width: 73%;    
+        max-width: 70%;
+        min-width: 70%;    
+    }
+    .Other{
+        max-width: 10%;
+        min-width: 10%;
+        padding: 5%;
+    }
+    .nav{
+        max-width: 10%;
+        min-width: 10%;
+        padding: 5%;
     }
     
 }
