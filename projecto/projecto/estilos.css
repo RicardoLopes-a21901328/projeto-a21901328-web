@@ -58,7 +58,7 @@ body{
     border-radius: 20px;
     border-style: solid;
     background-color: #535250;
-    align-items: initial;
+    align-items: center;
     margin-left: 100px;
     margin-right: 100px;
     max-width: 3000px;
@@ -159,7 +159,7 @@ body{
     flex-direction: column;
     color: white;
     margin-right: 100px;
-    align-items: initial ;
+    align-items: center ;
     background: url("images/haty_skoll10.jpg");
     max-width: 150px;
     min-width: 150px;
@@ -211,14 +211,14 @@ body{
         min-width: 70%;    
     }
     .Other{
-        max-width: 10%;
-        min-width: 10%;
-        padding: 5%;
+        max-width: 12%;
+        min-width: 12%;
+        padding: 3%;
     }
     .nav{
-        max-width: 10%;
-        min-width: 10%;
-        padding: 5%;
+        max-width: 12%;
+        min-width: 12%;
+        padding: 3%;
     }
     
 }
