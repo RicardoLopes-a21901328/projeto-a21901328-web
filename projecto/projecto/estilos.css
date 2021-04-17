@@ -349,6 +349,11 @@ body{
     .textos figure{
         align-self: center;
     }
+    .poem{
+        text-align: left;
+        align-items: left;
+        size: 50%;
+    }
     .ima_1{
         align-self: center;
     }
