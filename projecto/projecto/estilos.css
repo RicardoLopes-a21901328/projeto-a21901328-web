@@ -341,9 +341,13 @@ body{
         min-width: 100%;
         min-height: 150px;
         text-align: left;
+        align-items: left;
         max-height: auto;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .textos figure{
+        align-self: center;
     }
     .ima_1{
         align-self: center;
