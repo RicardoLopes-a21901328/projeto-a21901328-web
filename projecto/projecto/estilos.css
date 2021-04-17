@@ -121,26 +121,31 @@ body{
     background-color: transparent;
   }
 
-  .Statistic-content {
+.Statistic-content {
     display: none;
     position: absolute;
     background-color: #535250;
     min-width: auto;
     box-shadow: black;
     z-index: 1;
-  }
+}
+.map{
+    align-items: auto;
+    align-self: auto;
+    text-align: auto;
+ }
   
-  .Statistic-content a {
+.Statistic-content a {
     float: none;
     color: white;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
+}
   
-  .Statistic-content a:hover {
+.Statistic-content a:hover {
     background-color: #535250;
-  }
+}
 
   .droopdown:hover .Statistic-content {
     display: block;
@@ -162,7 +167,7 @@ body{
     flex-direction: column;
     color: white;
     margin-right: 4%;
-    align-items: center ;
+    align-items: initial ;
     background: url("images/haty_skoll10.jpg");
     max-width: 15%;
     min-width: 15%;
@@ -174,7 +179,7 @@ body{
     display: flex;
     flex-direction: row;
     color:white;
-    padding: 6px;
+    padding: 4px;
     background-color: transparent;
  }
  .Other a:hover{
@@ -236,11 +241,11 @@ body{
 @keyframes mymove2 {
     0%   {left: 0px;}
     12.5%  {top: 20px;}
-    25%  {left: 200px;}
+    25%  {left: 190px;}
     37.5% {bottom: 20px;}
     50%   {left: 0px;}
     62.5%  {top: 20px;}
-    75%  {left: -200px;}
+    75%  {left: -190px;}
     87.5% {bottom: 20px;}
     100%{left: 0px;}
 }
@@ -348,10 +353,10 @@ body{
         align-self: center;
     }
     .titulo{
-        size: 80%;
+        size: 70%;
     }
     .textos p{
-        size: 80%;
+        size: 70%;
     }
     .poem{
         text-align: left;
