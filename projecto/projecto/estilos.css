@@ -108,6 +108,10 @@ body{
 .ima_1{
     align-self: center;
 }
+.ima3 img{
+    display: flex;
+    max-width: 100%;
+}
 .textos{
     display: flex;
     background-color: #535250;
@@ -220,6 +224,7 @@ body{
     background-color: #535250;
     color:  darkred;
 }
+
 
 .imacharge img{
 
@@ -423,6 +428,7 @@ body{
 
 .imacharge img{
     size: 30%;
+    display: flex;
 
 }
 .filled{
