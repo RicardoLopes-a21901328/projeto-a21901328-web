@@ -7,7 +7,10 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
-  
+}
+
+.main{
+    grid-column: auto auto auto;
 }
 .ima img{
     width: 40%;
@@ -37,6 +40,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    align-content: center;
+    grid-column: auto;
     align-items: center;
     position: relative;
     min-height: 175px;
@@ -50,6 +55,7 @@ body{
     margin-left: 4%;
     align-items: initial;
     max-width: 15%;
+    grid-column: auto;
     min-width: 15%;
     background: url("images/haty_skoll9.jpg");
     background-size: 100% 100%;
@@ -84,6 +90,7 @@ body{
     display: flex;
     flex-direction: row;
     color:white;
+    grid-row: auto;
     padding: 6px;
     background-color: transparent;
 }
@@ -168,6 +175,7 @@ body{
     color: white;
     margin-right: 4%;
     align-items: initial ;
+    grid-column: auto;
     background: url("images/haty_skoll10.jpg");
     max-width: 15%;
     min-width: 15%;
@@ -179,11 +187,12 @@ body{
     display: flex;
     flex-direction: row;
     color:white;
+    grid-row: 20px;
     padding: 4px;
     background-color: transparent;
  }
  .Other a:hover{
-    background-color: #535250;
+    background-color: transparent;
     color:  darkred;
 }
 .Other1{
@@ -213,6 +222,7 @@ body{
 }
 
 .imacharge img{
+
     width: 80px;
     height: 80px;
     position: relative;
@@ -220,10 +230,19 @@ body{
 
 }
 .imafly img{
+
     width: 80px;
     height: 80px;
     position: relative;
     animation: mymove2 5s infinite;
+}
+.swim img{
+
+    width: 80px;
+    height: 80px;
+    position: relative;
+    animation: mymove3 5s infinite;
+
 }
 
 
@@ -251,15 +270,51 @@ body{
 }
 
 @keyframes mymove3 {
-    0%   {left: 0px;}
-    12.5%  {rotate: 90;}
-    25%  {left: 200px;}
-    37.5% {rotate: 180;}
-    50%   {left: 0px;}
-    62.5%  {rotate: 90;}
-    75%  {left: -200px;}
-    87.5% {rotate: 180;}
-    100%{left: 0px;}
+    0%{
+        left:190px;
+    }
+    20%{
+        transform: rotate(20deg);
+    }
+    40%{
+        transform: rotate(0deg);
+    }
+    60%{
+        left: -190px;
+    }
+    80%{
+        transform: rotate(-20deg);
+    }
+    90%{
+        transform: rotate( 0deg);
+    }
+    100%{
+        left: 190px;
+    }
+}
+@keyframes mymove4 {
+    from {
+        transform: rotate(20deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes mymove5 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-20deg);
+    }
+}
+@keyframes mymove6 {
+    from {
+        transform: rotate(-20deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 .filled{
