@@ -237,12 +237,10 @@ body{
     animation: mymove2 5s infinite;
 }
 .swim img{
-
     width: 80px;
     height: 80px;
     position: relative;
     animation: mymove3 5s infinite;
-
 }
 
 
