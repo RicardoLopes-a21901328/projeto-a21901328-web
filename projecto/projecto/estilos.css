@@ -328,12 +328,12 @@ body{
 
 @media screen and (min-width: 1400px){
     .textos{
-        max-width: 72%;
-        min-width: 72%;    
+        max-width: 71.5%;
+        min-width: 71.5%;    
     }
     .Other{
-        max-width: 11%;
-        min-width: 11%;
+        max-width: 11.5%;
+        min-width: 11.5%;
         padding: 3%;
     }
     .nav{
